@@ -1,0 +1,98 @@
+@media screen and (max-width:576px){
+
+    /* Shared Style */
+
+    .btn-primary {
+        border-radius: 42px;
+        background: rgb(230, 83, 60);
+        border: none;
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 14px 35px 14px 35px;
+        cursor: pointer;
+    }
+
+    .btn-secondary {
+        background-color: black;
+        margin-left: 14px;
+        border: 1px solid white;
+        cursor: pointer;
+    }
+
+    /* Navbar Section */
+    .nav-container > ul{
+        display: none;
+    }
+
+    .nav-container{
+        max-width: 353px;
+        margin: 0 auto;
+    }
+
+    .hamburg-menu{
+        display: block;
+        margin-right: 25px;
+    }
+
+    /* Banner Section */
+
+    .banner-container{
+        max-width: 352px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .banner-container-right, .banner-container-left{
+        max-width: 100%;
+    }
+
+    .banner-heading h1 {
+        font-size: 2.25rem;
+        margin: 0;
+        padding: 0;
+        font-weight: 900;
+        line-height: 1;
+    }
+
+    .btn-area {
+        margin-top: 28px;
+        margin-bottom: 90px;
+        display: flex;
+    }
+
+    .banner-image {
+        max-width: 100%;
+        position: absolute;
+        top: 550px;
+    }
+
+    .font-style {
+        font-size: 2.25rem;
+        font-family: 'Miama', sans-serif;
+        font-weight: 400;
+    }
+
+    .image-card-left {
+        top: 116px;
+        left: 0px;
+    }
+
+    .image-card-top{
+        top: -90px;
+        left: 15px;
+    }
+
+    .banner-container-right{
+        margin-bottom: 360px;
+    }
+
+    #join-club-btn-secondary{
+        display: block;
+    }
+
+    #join-club-btn-primary{
+        display: none;
+    }
+
+}
