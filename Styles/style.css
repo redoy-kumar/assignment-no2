@@ -249,3 +249,33 @@ header {
     border-radius: 50%;
     border: 3px solid rgba(128, 128, 128, 0.278);
 }
+
+/* Join Section  */
+.join-now-container {
+    max-width: 1060px;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+    margin-bottom: 90px;
+}
+
+.join-now-container-left {
+    max-width: 50%;
+    padding: 30px;
+}
+
+.join-now-container-left p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.join-now-container-right img {
+    width: 350px;
+    height: 350px;
+    margin: 30px;
+    border-radius: 30px;
+    object-fit: none;
+    object-position: 66% 30%;
+}

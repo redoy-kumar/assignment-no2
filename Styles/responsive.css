@@ -55,6 +55,10 @@
         flex-direction: column;
     }
 
+    .banner-container-left {
+        margin-top: 50px;
+    }
+
     .banner-container-right, .banner-container-left{
         max-width: 100%;
     }
@@ -76,7 +80,7 @@
     .banner-image {
         max-width: 100%;
         position: absolute;
-        top: 550px;
+        top: 470px;
     }
 
     .font-style {
@@ -119,5 +123,29 @@
         align-items: center;
         gap: 25px;
     }
+
+    /* Join now section */
+    .join-now-container{
+        max-width: 352px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .join-now-container-left{
+        max-width: 100%;
+    }
+
+    .join-now-container-left p{
+        max-width: 287px;
+    }
+
+    .join-now-container-right img{
+        width: 287px;
+        height: 170px;
+        margin-top: 0px;
+        object-fit:cover;
+        object-position: 0 0;
+    }
+
 
 }
