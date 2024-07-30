@@ -405,3 +405,78 @@ form input,select{
     margin-top: -60px;
     margin-left: 18px;
 }
+
+/* Footer Section */
+footer {
+    background-color: rgba(128, 128, 128, 0.249);
+    text-align: center;
+}
+
+.footer-container{
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.footer-container-upper-part {
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    text-align: start;
+}
+
+.footer-heading {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.get-started-left{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 30%;
+    padding-bottom: 50px;
+}
+.get-started-right{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 30%;
+    padding-bottom: 50px;
+}
+.title-details{
+    margin-top: 60px;
+    max-width: 40%;
+}
+
+.title-details h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.title-details p{
+    margin-top: 20px;
+}
+
+hr{
+    height:1px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+    margin-bottom: 35px;
+    margin-top: 25px;
+}
+
+.copy-right{
+padding-bottom: 35px;
+}

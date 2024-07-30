@@ -207,4 +207,44 @@
         justify-content: center;
         gap: 15px;
     }
+
+    /* Footer Section */
+    .footer-container{
+        max-width: 352px;
+        margin: 0 auto;
+    }
+
+    .footer-container-upper-part {
+        max-width: 352px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .title-details{
+        max-width: 100%;
+        margin-bottom: -15px;
+    }
+
+    .title-details h1{
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    .title-details p{
+        margin-top: 20px;
+    }
+
+    .get-started-left{
+        max-width: 100%;
+        margin-bottom: -15px;
+    }
+
+    .get-started-right{
+        margin-top: 5px;
+        max-width: 100%;
+    }
+
+    hr{
+        margin-top: -10px;
+    }
+
 }
