@@ -2,6 +2,18 @@
 
     /* Shared Style */
 
+    .primary-font-size {
+        color: white;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    
+    .secondary-font-size{
+        color: white;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
     .btn-primary {
         border-radius: 42px;
         background: rgb(230, 83, 60);
@@ -93,6 +105,19 @@
 
     #join-club-btn-primary{
         display: none;
+    }
+
+    /* Change habit Section */
+    .change-habit-container {
+        max-width: 352px;
+        margin: 0 auto;
+        margin-bottom: 90px;
+    }   
+
+    .change-habit-body-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
     }
 
 }

@@ -29,7 +29,7 @@ body {
 }
 .text-style-secondary {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 0.83rem;
+    font-size: 0.87rem;
     font-weight: 400;
 }
 
@@ -124,7 +124,7 @@ header {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 }
 
 .font-style {
@@ -217,4 +217,35 @@ header {
 }
 .banner{
     display: flex;
+}
+
+/* Change habit Section */
+.change-habit-container {
+    max-width: 1060px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+
+.title-container p{
+    margin-top: 15px;
+    margin-bottom: 55px;
+}
+
+.change-habit-body-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.change-habit-card {
+    text-align: center;
+    max-width: 230px;
+}
+.change-habit-card h3 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.change-habit-card img {
+    border-radius: 50%;
+    border: 3px solid rgba(128, 128, 128, 0.278);
 }
