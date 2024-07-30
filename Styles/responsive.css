@@ -1,4 +1,4 @@
-@media screen and (max-width:576px){
+@media screen and (max-width:576px) {
 
     /* Shared Style */
 
@@ -7,8 +7,8 @@
         font-size: 2rem;
         font-weight: 800;
     }
-    
-    .secondary-font-size{
+
+    .secondary-font-size {
         color: white;
         font-size: 2rem;
         font-weight: 800;
@@ -33,23 +33,23 @@
     }
 
     /* Navbar Section */
-    .nav-container > ul{
+    .nav-container>ul {
         display: none;
     }
 
-    .nav-container{
+    .nav-container {
         max-width: 353px;
         margin: 0 auto;
     }
 
-    .hamburg-menu{
+    .hamburg-menu {
         display: block;
         margin-right: 25px;
     }
 
     /* Banner Section */
 
-    .banner-container{
+    .banner-container {
         max-width: 352px;
         margin: 0 auto;
         flex-direction: column;
@@ -59,7 +59,8 @@
         margin-top: 50px;
     }
 
-    .banner-container-right, .banner-container-left{
+    .banner-container-right,
+    .banner-container-left {
         max-width: 100%;
     }
 
@@ -94,20 +95,20 @@
         left: 0px;
     }
 
-    .image-card-top{
+    .image-card-top {
         top: -90px;
         left: 15px;
     }
 
-    .banner-container-right{
+    .banner-container-right {
         margin-bottom: 360px;
     }
 
-    #join-club-btn-secondary{
+    #join-club-btn-secondary {
         display: block;
     }
 
-    #join-club-btn-primary{
+    #join-club-btn-primary {
         display: none;
     }
 
@@ -116,36 +117,47 @@
         max-width: 352px;
         margin: 0 auto;
         margin-bottom: 90px;
-    }   
+    }
 
-    .change-habit-body-container{
+    .change-habit-body-container {
         flex-direction: column;
         align-items: center;
         gap: 25px;
     }
 
     /* Join now section */
-    .join-now-container{
+    .join-now-container {
         max-width: 352px;
         margin: 0 auto;
         flex-direction: column;
     }
 
-    .join-now-container-left{
+    .join-now-container-left {
         max-width: 100%;
     }
 
-    .join-now-container-left p{
+    .join-now-container-left p {
         max-width: 287px;
     }
 
-    .join-now-container-right img{
+    .join-now-container-right img {
         width: 287px;
         height: 170px;
         margin-top: 0px;
-        object-fit:cover;
+        object-fit: cover;
         object-position: 0 0;
     }
 
+    /* BMI Calculator title section */
+    .bmi-title-container {
+        max-width: 352px;
+        margin: 0 auto;
+        margin-bottom: 90px;
+    }
 
+    .bmi-title-container>div {
+        margin-top: 20px;
+        margin-left: 0;
+        max-width: 100%;
+    }
 }

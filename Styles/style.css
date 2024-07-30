@@ -279,3 +279,15 @@ header {
     object-fit: none;
     object-position: 66% 30%;
 }
+
+/* BMI Calculator title section */
+.bmi-title-container {
+    max-width: 1060px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+
+.bmi-title-container>div {
+    margin-left: 200px;
+    max-width: 671px;
+}
