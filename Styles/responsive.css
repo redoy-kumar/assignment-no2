@@ -160,4 +160,37 @@
         margin-left: 0;
         max-width: 100%;
     }
+
+    /* BMI table section */
+    .bmi-table-container-inner-box {
+        margin: 0 auto;
+        max-width: 352px;
+        flex-direction: column;
+    }
+
+    .bmi-table-container-inner-box{
+        flex-direction: column;
+    }
+
+    .bmi-calculator-chart {
+        max-width: 100%;
+    }
+
+    .calculate-bmi {
+        max-width: 352px;
+    }
+
+    form input,select{
+        width: 48.2%;
+    }
+
+    #sex{
+        padding: 12px;
+        background-color: rgba(255, 255, 255, 0.1);
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    form{
+        margin-bottom: 20px;
+    }
 }
