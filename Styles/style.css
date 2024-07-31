@@ -250,6 +250,25 @@ header {
     border: 3px solid rgba(128, 128, 128, 0.278);
 }
 
+/* Intro Video Section */
+.intro-video-container{
+    max-width: 1060px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(34, 34, 34);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+iframe{
+    border-radius: 20px;
+}
+
+#video-for-phone{
+    display: none;
+}
+
 /* Join Section  */
 .join-now-container {
     max-width: 1060px;
@@ -259,6 +278,7 @@ header {
     justify-content: space-between;
     background-color: rgb(34, 34, 34);
     margin-bottom: 90px;
+    margin-top: 60px;
 }
 
 .join-now-container-left {

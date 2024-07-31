@@ -125,6 +125,28 @@
         gap: 25px;
     }
 
+    /* Intro video section */
+    .intro-video-container{
+        margin-top: -40px;
+        max-width: 352px;
+        display: flex;
+        justify-content: center;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        margin-bottom: 50px;
+    }
+
+    iframe{
+        border-radius: 10px;
+    }
+
+    #video-for-desktop{
+        display: none;
+    }
+    #video-for-phone{
+        display: block;
+    }
+
     /* Join now section */
     .join-now-container {
         max-width: 352px;
