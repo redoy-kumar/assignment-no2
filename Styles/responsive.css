@@ -40,10 +40,12 @@
     .hamburg-menu {
         display: block;
         cursor: pointer;
+        margin-right: 20px;
     }
 
     .nav-container {
         max-width: 353px;
+        padding-top: 20px;
         margin: 0 auto;
     }
 
@@ -51,17 +53,19 @@
         margin-bottom: 20px;
     }
     .logo img{
-        width: 100px;
-        height: 100px;
+        padding-top: 8px;
+        width: 80px;
+        height: 90px;
     }
 
     .logo h1{
-        left: px;
+        left: -23px;
         font-size: 1.2rem;
+        top: 43px;
     }
 
     .logo>div p{
-        left: 134px;
+        top: 50px;
         font-size: 0.6rem;
         left: -10px;
     }
@@ -102,7 +106,7 @@
     .banner-image {
         max-width: 100%;
         position: absolute;
-        top: 574px;
+        top: 530px;
     }
 
     .font-style {
@@ -249,11 +253,17 @@
         object-position: 0 0;
     }
 
+    .join-now-container-left button{
+        width: 287px;
+        height: 54px;
+    }
+
     /* BMI Calculator title section */
     .bmi-title-container {
         max-width: 352px;
         margin: 0 auto;
-        margin-bottom: 90px;
+        margin-bottom: 70px;
+        margin-top: 60px;
     }
 
     .bmi-title-container>div {
