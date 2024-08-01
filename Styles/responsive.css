@@ -37,6 +37,11 @@
         display: none;
     }
 
+    .hamburg-menu {
+        display: block;
+        cursor: pointer;
+    }
+
     .nav-container {
         max-width: 353px;
         margin: 0 auto;
@@ -46,7 +51,8 @@
         margin-bottom: 20px;
     }
     .logo img{
-        max-width: 80%;
+        width: 100px;
+        height: 100px;
     }
 
     .logo h1{
@@ -57,13 +63,10 @@
     .logo>div p{
         left: 134px;
         font-size: 0.6rem;
-        left: 0px;
+        left: -10px;
     }
 
-    .hamburg-menu {
-        display: block;
-        margin-right: 25px;
-    }
+    
 
     /* Banner Section */
 
@@ -99,7 +102,7 @@
     .banner-image {
         max-width: 100%;
         position: absolute;
-        top: 595px;
+        top: 574px;
     }
 
     .font-style {
@@ -135,12 +138,70 @@
         max-width: 352px;
         margin: 0 auto;
         margin-bottom: 90px;
+        margin-top: 40px;
     }
 
     .change-habit-body-container {
         flex-direction: column;
         align-items: center;
         gap: 25px;
+    }
+
+    /* Why Choose us section */
+    .why-choose-us-container{
+        max-width: 352px;
+        margin: 0 auto;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .why-choose-us-description-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .why-choose-us-description-container img{
+        height: 250px;
+    }
+
+    .why-choose-us-right-box{
+        margin: 0 auto;
+        padding-left: 10px;
+        padding-top: 30px;
+        max-width: 330px;
+        padding-bottom: 30px;
+    }
+
+    .why-choose-us-description-causes{
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .why-choose-us-description-causes img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .why-choose-us-right-box h1{
+        font-size: 1.8rem;
+    }
+
+    #view-class-schedule-btn{
+        padding: 10px 15px;
+    }
+
+    #read-more-btn{
+        padding: 10px 15px;
+    }
+
+    .btn-area-why-choose{
+        justify-content: space-between;
+        gap: 1px;
     }
 
     /* Intro video section */
@@ -239,6 +300,7 @@
     .meet-our-team-container {
         max-width: 352px;
         margin: 0 auto;
+        margin-top: 40px;
     }
 
     .meet-our-team-card-container {
@@ -252,6 +314,7 @@
     .footer-container{
         max-width: 352px;
         margin: 0 auto;
+        margin-top: 50px;
     }
 
     .footer-container-upper-part {
