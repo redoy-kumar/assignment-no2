@@ -120,6 +120,10 @@
         left: 0px;
     }
 
+    .image-card-left img{
+        left: 31px;
+    }
+
     .image-card-top {
         top: -90px;
         left: 15px;
