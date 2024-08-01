@@ -86,7 +86,7 @@ header {
 }
 
 .logo{
-    max-width: 200px;
+    max-width: 700px;
     display: flex;
 }
 
@@ -96,18 +96,24 @@ header {
 }
 
 .logo h1{
-    position: absolute;
+    position: relative;
     font-size: 1.5rem;
-    top:115px;
-    left: 313px;
+    top:55px;
+    left: -30px;
 }
 
-.logo>div p{
+.logo div{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo p{
     color: yellow;
     font-size: 0.7rem;
-    position: absolute;
-    top:150px;
-    left: 330px;
+    position: relative;
+    top:60px;
+    left: -12px;
 }
 
 .hamburg-menu{
