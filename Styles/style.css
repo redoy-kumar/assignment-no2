@@ -525,6 +525,10 @@ form input,select{
     padding: 20px;
 }
 
+#img5{
+    display: none;
+}
+
 .img-card img {
     width: 326.67px;
     height: 272px;
