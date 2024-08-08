@@ -45,11 +45,11 @@
 
     .nav-container {
         max-width: 353px;
-        padding-top: 20px;
+        padding-top: 35px;
         margin: 0 auto;
     }
 
-    .logo{
+    /* .logo{
         margin-bottom: 20px;
     }
     .logo img{
@@ -62,13 +62,13 @@
         left: -23px;
         font-size: 1.2rem;
         top: 43px;
-    }
+    } */
 
-    .logo>div p{
+    /* .logo>div p{
         top: 50px;
         font-size: 0.6rem;
         left: -10px;
-    }
+    } */
 
     
 
@@ -106,7 +106,7 @@
     .banner-image {
         max-width: 100%;
         position: absolute;
-        top: 439px;
+        top: 470px;
     }
 
     .font-style {
